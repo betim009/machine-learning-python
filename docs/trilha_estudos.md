@@ -25,6 +25,10 @@ Média, mediana e moda: teoria, exemplos práticos e exercícios reunidos em um 
 ## 4. Projetos Práticos Iniciais
 - **4_projeto_1.md**  
 Atividade prática contextualizada sobre análise de idades, com gabarito para consulta.
+- **5_projeto_2.md**  
+Projeto integrador: análise estatística completa de notas de alunos, utilizando todos os conceitos estudados.
+- **5_gabarito_projeto_2.md**  
+Resolução detalhada do projeto 2, com código, saídas e análise interpretativa.
 
 ---
 
@@ -52,11 +56,36 @@ Resolução comentada do exercício e exemplos didáticos de histogramas.
 
 ---
 
+## 8. Distribuição Normal de Dados
+- **8_normal_data_distribution.md**  
+Como gerar e interpretar distribuições normais (curva de sino), exemplos práticos, visualização e exercícios.
+- **8_gabarito_normal_data_distribution.md**  
+Resolução detalhada dos exercícios sobre distribuição normal, incluindo comparação de desvios padrão.
+
+---
+
+## 9. Projeto: Distribuições em Machine Learning
+- **8_projeto_distribuicoes.md**  
+Projeto prático integrador: análise, comparação e visualização de distribuições uniforme e normal, com exploração do desvio padrão.
+- **8_gabarito_projeto_distribuicoes.md**  
+Gabarito detalhado do projeto, com código, visualizações e análise interpretativa.
+
+---
+
+## 10. Projeto Final Integrador
+- **9_projeto_final.md**  
+Projeto final: análise completa de dados de uma turma, envolvendo estatística básica, dispersão, percentis, visualização, simulação de distribuição normal e relatório analítico.
+- **9_gabarito_projeto_final.md**  
+Gabarito detalhado do projeto final, com código, visualizações, interpretações e relatório.
+
+---
+
 ## Como seguir a trilha
 
 1. **Comece pelo ambiente**: Aprenda a criar um ambiente virtual para seus projetos Python (ou instale os pacotes localmente, se preferir).
 2. **Entenda os conceitos básicos**: Leia a introdução ao Machine Learning.
 3. **Domine estatística básica**: Estude média, mediana e moda, depois pratique com os exemplos.
-4. **Faça o projeto prático**: Resolva o projeto 1 e confira o gabarito.
+4. **Faça os projetos práticos**: Resolva o projeto 1 e depois o projeto 2, conferindo os gabaritos.
 5. **Aprofunde em dispersão**: Estude desvio padrão, variância e percentis, praticando com os exercícios e consultando os gabaritos.
-6. **Explore a distribuição dos dados**: Aprenda a gerar, visualizar e interpretar distribuições para consolidar seu entendimento estatístico. 
+6. **Explore a distribuição dos dados**: Aprenda a gerar, visualizar e interpretar distribuições para consolidar seu entendimento estatístico.
+7. **Aprofunde em distribuição normal e projetos avançados**: Estude a distribuição normal, resolva o projeto integrador sobre distribuições e, por fim, realize o projeto final para consolidar todo o aprendizado. 
