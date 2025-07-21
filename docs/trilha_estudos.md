@@ -12,25 +12,31 @@ Como criar e usar ambientes virtuais em Python. **O uso do venv é recomendado p
 
 ## 2. Introdução ao Machine Learning
 - **intro.md**  
-Conceitos básicos de Machine Learning, tipos de dados e importância de entender os dados antes de aplicar modelos.
+Conceitos fundamentais de IA, Machine Learning e Deep Learning, exemplos do dia a dia, etapas do processo, tipos de aprendizado, análise exploratória, ética e tipos de dados. Ideal para quem está começando ou quer revisar os principais conceitos.
 
 ---
 
 ## 3. Estatística Básica
 - **medias.md**  
-Média, mediana e moda: o que são, como calcular e por que são importantes para análise de dados.
-- **media_2.md**  
-Exercícios práticos e exemplos adicionais sobre média, mediana e moda.
+Média, mediana e moda: teoria, exemplos práticos e exercícios reunidos em um único arquivo. Essencial para entender a base estatística da análise de dados.
 
 ---
 
-## 4. Projetos Práticos Iniciais
+## 4. Distribuição de Dados
+- **distribuicao_dados.md**  
+Como gerar, visualizar e interpretar distribuições de dados usando histogramas e exemplos práticos. Inclui exercícios e gabarito para diferentes tipos de distribuição.
+- **gabarito_distribuicao_dados.md**  
+Resolução comentada do exercício e exemplos didáticos de histogramas.
+
+---
+
+## 5. Projetos Práticos Iniciais
 - **../projetos/projeto_1.md**  
 Atividade prática contextualizada sobre análise de idades, com gabarito para consulta.
 
 ---
 
-## 5. Medidas de Dispersão
+## 6. Medidas de Dispersão
 - **desvio_padrao.md**  
 Desvio padrão e variância: como medir a dispersão dos dados, exemplos práticos e exercícios.
 - **gabarito_desvio_padrao.md**  
@@ -38,7 +44,7 @@ Resolução comentada do exercício sobre desvio padrão.
 
 ---
 
-## 6. Percentis
+## 7. Percentis
 - **percentis.md**  
 O que são percentis, como calcular e interpretar, exemplos práticos e exercícios.
 - **gabarito_percentis.md**  
@@ -51,5 +57,6 @@ Resolução comentada do exercício sobre percentis.
 1. **Comece pelo ambiente**: Aprenda a criar um ambiente virtual para seus projetos Python (ou instale os pacotes localmente, se preferir).
 2. **Entenda os conceitos básicos**: Leia a introdução ao Machine Learning.
 3. **Domine estatística básica**: Estude média, mediana e moda, depois pratique com os exemplos.
-4. **Faça o projeto prático**: Resolva o projeto 1 e confira o gabarito.
-5. **Aprofunde em dispersão**: Estude desvio padrão, variância e percentis, praticando com os exercícios e consultando os gabaritos. 
+4. **Entenda a distribuição dos dados**: Aprenda a gerar, visualizar e interpretar distribuições antes de avançar para medidas de dispersão.
+5. **Faça o projeto prático**: Resolva o projeto 1 e confira o gabarito.
+6. **Aprofunde em dispersão**: Estude desvio padrão, variância e percentis, praticando com os exercícios e consultando os gabaritos. 
