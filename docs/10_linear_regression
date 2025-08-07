@@ -1,0 +1,82 @@
+
+
+# 📈 Regressão Linear em Machine Learning
+
+## O que é Regressão Linear?
+
+A regressão linear é uma técnica usada para **prever um valor numérico**
+com base em uma variável independente. Ela tenta traçar uma **linha reta**
+que melhor representa a relação entre dois conjuntos de dados.
+
+Fórmula básica:
+```
+y = a * x + b
+```
+- `x`: variável independente (ex: horas de estudo)
+- `y`: variável dependente (ex: nota)
+- `a`: coeficiente angular (inclinação da linha)
+- `b`: interceptação (onde a linha cruza o eixo y)
+
+---
+
+## Para que serve?
+
+- Fazer **previsões** de valores futuros com base em dados históricos.
+- Verificar se existe **relação linear** entre duas variáveis.
+- Base para algoritmos mais avançados, como regressão múltipla.
+
+---
+
+## Exemplo com Python
+
+Usando a biblioteca `scipy.stats` para aplicar uma regressão linear simples:
+
+```python
+from scipy import stats
+import matplotlib.pyplot as plt
+
+# Dados de entrada
+x = [1, 2, 3, 4, 5]
+y = [1, 3, 2, 5, 4]
+
+# Criando o modelo de regressão
+slope, intercept, r, p, std_err = stats.linregress(x, y)
+
+# Função que representa o modelo
+def modelo(x):
+  return slope * x + intercept
+
+# Prevendo os valores de y com base em x
+y_pred = list(map(modelo, x))
+
+# Plotando o gráfico
+plt.scatter(x, y)
+plt.plot(x, y_pred, color="red")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.title("Regressão Linear Simples")
+plt.grid(True)
+plt.show()
+```
+
+---
+
+## Interpretação
+
+- A **linha vermelha** é a linha da regressão.
+- Os pontos mostram os dados originais.
+- O **coeficiente de correlação (r)** indica o quanto a linha se ajusta aos dados (varia de -1 a 1).
+  - Se `r` for próximo de 1 ou -1: forte correlação.
+  - Se `r` for próximo de 0: pouca ou nenhuma correlação.
+
+---
+
+## Conclusão
+
+A regressão linear é uma ferramenta simples e poderosa para:
+
+- Fazer previsões baseadas em tendências.
+- Analisar relações entre variáveis.
+- Testar hipóteses visuais observadas em um gráfico de dispersão.
+
+---
